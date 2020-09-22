@@ -3,9 +3,9 @@ results_array = []
 count = 0
 while count < src.length do
   element_index = 0
-  result = []
+  lowest_value = 1000
   while element_index < src[count].length do
-    if src[count][element_index] < src[count][element_index].min
+    if src[count][element_index] < lowest_value
   lowest_value = src[count][element_index]
   end
 element_index += 1

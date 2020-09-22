@@ -5,7 +5,7 @@ while count < src.length do
   element_index = 0
   result = []
   while element_index < src[count].length do
-    if src[count][element_index] < src.min
+    if src[count][element_index]to_i < src.min
   lowest_value = src[count][element_index]
   end
 element_index += 1
